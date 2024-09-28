@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cabecera {
+    width: 100%;
+    background-color: #161D6F;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.datos {
+    text-align: left;
+}
+
+
+.cabecera .area-perfil img {
+
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+
+}
+
+h1 {
+    color: #efefef;
+}
+
+p {
+    color: rebeccapurple;
+}
+
+p strong {
+    color: rgb(0, 255, 0);
+
+}
+
+
+
+.contenido p {
+    color: #444;
+    text-align: center;
+
+}
+
+.contenido h2 {
+    text-align: center;
+}
+
+body.dark .contenido {
+    background-color: #6610f2;
+}
+
+body.dark .contenido p {
+    color: #efefef
+}
+
+body.dark .contenido h2 {
+    color: #efefef
+}
+
+
+
+
+@media (min-width: 576px) {
+    body {
+        display: flex;
+    }
+
+    .cabecera {
+        width: 30%;
+    }
+}
